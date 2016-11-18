@@ -9,6 +9,7 @@ AstronomicalObj -> AnyWord<kwtype="astronomical_object">; // список объ
 OtherLoc -> AnyWord<kwtype="other_location">;
 
 Loc -> LocDescr<gram="sg"> interp(Object.Descr) Word<h-reg1> interp(Object.Name; Object.Type="LOC");
+LocDescr -> Adj<gnc-agr[1]> LocDescr<gnc-agr[1], gram="sg", rt>;
 Loc_nointerp -> Adj<gnc-agr[1]> LocDescr<gnc-agr[1], gram="sg", rt> interp(Object.Descr);
 Loc_nointerp -> Direction<gnc-agr[1]> Word<gram="S", rt, gnc-agr[1]>;
 Loc_nointerp -> Country; // <gram="sg">;

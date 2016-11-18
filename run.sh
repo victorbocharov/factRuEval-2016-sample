@@ -1,3 +1,4 @@
+#!/bin/bash
 mkdir facts
 mkdir reports
 

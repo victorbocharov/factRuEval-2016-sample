@@ -1,3 +1,15 @@
+PrettyOutput.html
+*.bin
+facts/*
+facts_devset/*
+facts_testset/*
+reports/*
+reports_devset/*
+reports_testset/*
+tree.txt
+rules.txt
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

@@ -67,14 +67,19 @@ TAuxDicArticle "astronomical_object"
     key = { "dic_solar_system.txt" type=FILE }
 }
 
-TAuxDicArticle "имя"
+TAuxDicArticle "other_org"
+{
+    key = { "dic_org_other.txt" type=FILE }
+}
+
+TAuxDicArticle "algfio"
 {
     key = { "alg:fio" type=CUSTOM }
 }
 
-TAuxDicArticle "People"
+TAuxDicArticle "Per"
 {
-    key = { "tomita:people.cxx" type=CUSTOM }
+    key = { "tomita:person.cxx" type=CUSTOM }
 }
 
 TAuxDicArticle "Org"

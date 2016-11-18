@@ -1,18 +1,15 @@
 encoding "utf8";
 
 TTextMinerConfig {
-  Dictionary = "mydic.gzt";
+  Dictionary = "dic.gzt";
 
-  PrettyOutput = "PrettyOutput.html";
-
-  Input = {
-    //File = "book_58.txt";
-    Encoding="utf-8";
-  }
+  //PrettyOutput = "PrettyOutput.html";
+  //PrintTree="tree.txt";
+  //PrintRules="rules.txt";
 
   Articles = [
-    { Name = "имя" }
-    , { Name = "People" }
+    { Name = "algfio" }
+    , { Name = "Per" }
     , { Name = "Org" }
     , { Name = "Loc" }
   ]
