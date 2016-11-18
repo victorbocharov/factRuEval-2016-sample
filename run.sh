@@ -11,7 +11,7 @@ done
 for f in facts/*.proto; 
 do
   name=`echo $f | grep -E -o "book_[0-9]+"`;
-  python convert/parsefacts.py $f > facts/$name.task1 ;
+  python scripts/parsefacts.py $f > facts/$name.task1 ;
 done
 
 rm reports/*
